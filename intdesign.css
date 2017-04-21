@@ -8,22 +8,25 @@
 	box-shadow:inset;
 }
 
-		.back-to-top {
-			position: fixed;
-			bottom: 2em;
-			right: 0px;
-			text-decoration: none;
-			color: #000000;
-			background-color: rgba(235, 235, 235, 0.80);
-			font-size: 12px;
-			padding: 1em;
-			display: none;
-		}
+#backtotop {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: darkgray; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    opacity: .8;
+}
 
-		.back-to-top:hover {	
-			background-color: rgba(135, 135, 135, 0.50);
-			cursor:pointer;
-		}
+#backtotop:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
 
 
 body{
