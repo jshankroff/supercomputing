@@ -4,33 +4,21 @@
 <meta charset="UTF-8">
 <title>1980's</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="intdesign.css" rel="stylesheet" type="text/css"/>
+<link href="css/intdesign.css" rel="stylesheet" type="text/css"/>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-<link href="map.css" rel="stylesheet" type="text/css"/>
-<script src="js/bootstrap.js"/>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="scrolltotop.js"/>
-
-
-
-
-<style></style>
-<script></script>
+<script src="js/bootstrap.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/scrolltotop.js"></script>
 </head>
-
-<!--************************ social media? ******************************-->
 
 <div align="center"/>
 <body>
 
-
-
-
 <div id= "wrapper">
 
-<nav class="navbar navbar-default" style="  background-color: #2e2e2e;
-">
+<!--NAVBAR-->
+<nav class="navbar navbar-default" style="  background-color: #2e2e2e;">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="intdesign.html">Super Computing History</a>
@@ -43,9 +31,11 @@
     </ul>
   </div>
 </nav>
+<!--END NAVBAR-->
 
 <button onclick="topFunction()" id="backtotop" title="Go to top">Back to Top</button>
 
+<!--GRAY TEXT AREA WITH TIMELINE NAV-->
 <div class="jumbotron">
     <h1>1980</h1>      
     <p>ARPANET Becomes the Internet</p>
@@ -55,11 +45,10 @@
     <a href="1980.html"><div class = "timelinenodes" style="background-color: salmon">1980</div></a>
     <a href="1990.html"><div class = "timelinenodes">1990</div></a>
     <a href="2000.html"><div class = "timelinenodes">2000</div></a>
-<!--     <span class="glyphicon glyphicon-menu-right"/> -->
   </div>
+<!--END GRAY TEXT AREA-->
 
 <div class="row">
-
 <!--begin map div -->
   <div class="col-xs-12"> <div class="interactive-map">
   <p style="text-align: center; font-weight: bold; font-size: 24px;">Relevant Locations in the 1980s</p>
@@ -101,6 +90,7 @@
     </span>
   </div>
 
+ <!--1986 map point -->
       <div class="map-point">
     <span class="mtooltip mtooltip-effect-4" style="top:42%; right:20%;">
       <span class="mtooltip-item">
@@ -117,41 +107,42 @@
     </span>
     </span>
   </div>
-
-   
-
 <!--end of map points-->  
 </div>
   </div>
   </div>
 
-
+<!--TIMELINE-->
     <ul class="timeline0">
+
+<!--1982-->        
         <li>
           <div class="timeline-badge">1982</i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title" id="1982">Lawrence Roberts</h4>
-
             </div>
             <div class="timeline-body">
               <p>In 1982, Roberts was President and CEO of DHL. From 1983 to 1993, he was Chairman and CEO of NetExpress, Inc., an electronics company specializing in packetized facsimile and ATM equipment. From 1993 to 1998, he was President of networking company ATM Systems. In the late 1990's, Roberts was Chairman and CTO of Packetcom, specializing in advanced Internet routers with improved quality of service.</p>
             </div>
           </div>
         </li>
+<!--END 1982-->
 
+<!--1982A-->
           <li>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title" id="1982a">The ARPANET Community Grows </h4>
-
             </div>
             <div class="timeline-body">
               <p>Academic institutions depended on federal funding to join the network, so the number of nodes expanded slowly. By 1982, the network only had about 100 nodes. But that was enough to support a vibrant online community. Long before Facebook and Twitter, ARPANET allowed computer scientists who had access to the network to stay in touch. A new bulletin board system called Usenet was invented in 1980 and caught on quickly. Usenet was organized by topic, allowing users to swap programming tips, recipes, jokes, opinions about science fiction, and much more. </p>
             </div>
           </div>
         </li>
+<!--END 1982A-->
 
+<!--1984-->
         <li class="timeline-inverted">
           <div class="timeline-badge warning">1984</i></div>
           <div class="timeline-panel">
@@ -163,37 +154,37 @@
             </div>
           </div>
         </li>
+<!--END 1984-->
 
+<!--1986-->
           <li>
           <div class="timeline-badge">1986</i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title" id="1986">ARPANET Becomes the Internet</h4>
-
             </div>
             <div class="timeline-body">
               <p>Originally, the entire ARPANET was managed by the military. But network operators realized that a centralized network would eventually become unmanageable if it continued to grow. They decided that the network should be reorganized as a decentralized "network of networks." Under this scheme, different networks would be controlled by different organizations, but all the networks able to communicate using shared standards, forming a shared "internet." The military asked the computer scientists Robert Kahn and Vint Cerf to develop new networking standards to make this possible. The result was a set of standards known as TCP/IP. These standards specified the basic format of data packets transmitted across the internet. On January 1, 1983, the ARPANET switched to using TCP/IP, marking the birth of the modern internet. The switch to TCP/IP didn't make much difference from a user perspective — applications like email and Telnet worked about the same as they had before. But the new standard paved the way for much faster network growth by lowering the barrier to entry for new networks. One of the first new networks to connect to the new internet was CSNET, which was funded by the National Science Foundation to link computer science departments across the country. This map shows the location of ARPANET and CSNET nodes (labeled "Phonenet"), which after 1983 communicated with each other using TCP/IP. By the time the ARPANET was decommissioned in 1990, it was just one of many networks that comprised the internet. Today, the internet is made up of more than 40,000 different networks. These networks still communicate with each other using the TCP/IP standards Cerf and Kahn developed in the 1970s. </p>
             </div>
           </div>
         </li>
-
+<!--END 1986-->
     </ul>
+<!--END TIMELINE-->
 
-
-
-
+<!--TIMELINE NAV-->
     <a href="intdesign.html"><div class = "timelinenodes">1950</div></a>
     <a href="1960.html"><div class = "timelinenodes">1960</div></a>
     <a href="1970.html"><div class = "timelinenodes">1970</div></a>
     <a href="1980.html"><div class = "timelinenodes" style="background-color: salmon">1980</div></a>
     <a href="1990.html"><div class = "timelinenodes">1990</div></a>
     <a href="2000.html"><div class = "timelinenodes">2000</div></a>
+<!--END TIMELINE NAV-->
 
-
+<!--FOOTER-->
 <footer class="footer-distributed">
 
       <div class="footer-left">
-
 
         <p class="footer-links">
           <a href="intdesign.html">Home</a>
@@ -238,10 +229,9 @@
       </div>
 
     </footer>
-
+<!--END FOOTER-->
 
 </div>
-
 
 </body>
 
