@@ -1,2 +1,2 @@
-# supercomputing
+# Supercomputing
 Supercomputing compilation 
