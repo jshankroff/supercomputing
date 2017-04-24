@@ -4502,7 +4502,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 }
 .navbar-default .navbar-brand {
-  color: #777;
+  color: white; /*changed the text color in the nav all the way left @@@@@@@@@@@@@@@@@@@*/
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -4513,7 +4513,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: white; /*changed the color of the nav text @@@@@@@@@@@@@@@@@@@@@@*/
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
