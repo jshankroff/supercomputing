@@ -13,6 +13,9 @@ body { background-color:lightgray; }
   position: relative;
   border-radius: 10px;
 }
+.mtooltip-text a{
+  color: white;
+}
 
 .interactive-map > img {
   vertical-align: top;
